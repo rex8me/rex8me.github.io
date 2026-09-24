@@ -15,17 +15,17 @@ General-purpose AI gets teams started remarkably quickly, and I don't want to un
 
 It's rarely a sign that generic AI failed. It's a sign that it isn't the whole answer.
 
-I've seen a version of this before. Around 2019 and 2020, a lot of my work was on chatbots and the NLU underneath them. They started out fairly generic: a set of intents and answers, and a lot of effort just to keep the conversation on track. What made them worth it for enterprises was when they got specific: tuned to the business's domain, aware of the user and the situation, and eventually wired into the workflows people were actually doing.
+I've seen a version of this before. Around 2019 and 2020, chatbots were moving beyond the fairly narrow, intent-and-flow driven systems that had been common in enterprise deployments. The industry was putting more emphasis on context, multi-turn conversations, domain-specific knowledge, personalization, and connecting bots to the systems and workflows behind them.
 
-When I look at what's happening with agents now, some of that progression feels familiar. The technology is very different, and agents can do far more than those chatbots could. But the underlying question feels surprisingly similar: how do you take a generally capable system and get it to understand enough about its environment to do useful work?
+When I look at what's happening with agents now, some of that progression feels familiar. The technology is very different, and agents can do far more than those chatbots could. But the underlying question feels surprisingly similar: how do you take a generally capable system and give it enough context about its environment to do useful work?
 
 So the question I find myself asking has changed. It's less "which model should we use?" and more "what does the system around the model need to look like for this to actually work?"
 
 The more I build these systems, the less I think the model itself is the interesting part. Models still matter, a lot. But they keep getting better and easier to swap, and in the systems I've worked on, the harder problems tend to sit around them: the context the system can draw on, how work gets routed, whether retrieval respects the situation it's in, which tools it can use and with what permissions, how it's evaluated, and how what we learn from using it finds its way back into the system.
 
-One thing I keep coming back to is repetition. Some work should stay open-ended, and that's where models are at their best. But when the same kind of problem comes up often enough, whether people are solving it or an agent is, you eventually want the system to know the reliable way to handle it instead of working it out from scratch every time. That's where ideas like procedural memory start to get interesting, and I think they have a lot to do with making enterprise AI more stable and consistent.
+One thing I keep coming back to is repetition. Some work should stay open-ended, and that's where models are at their best. But when the same kind of problem comes up often enough, whether people are doing it or an agent is, you eventually want the system to know the reliable way to handle it instead of working it out from scratch every time. That's where ideas like procedural memory start to get interesting, and I think they have a lot to do with making enterprise AI more stable and consistent.
 
-My working theory is that more of the industry will move in this direction: general-purpose AI where it's strong, combined with domain-specific, custom-built pieces where the work demands it, all built around the organization's own context. I've been calling that *specialist AI*. It's a working term, not a claim to have found the definitive architecture. These articles are my attempt to explain why I think it matters, and to work out what it actually takes to build in practice.
+I think more of the industry will move in this direction: general-purpose AI where it's strong, combined with domain-specific, custom-built pieces where the work demands it, all built around the organization's own context. That's my working theory, anyway. I've been calling it *specialist AI*. It's a working term, not a claim to have found the definitive architecture. These articles are my attempt to explain why I think it matters, and to work out what it actually takes to build in practice.
 
 None of this is a finished framework. It's the current state of my thinking, shaped by experiments, production issues and a fair number of wrong turns, and I expect parts of it to change as the models and tools do.
 
@@ -47,7 +47,7 @@ So far, my answer looks roughly like this:
 {% endfor %}
 </ol>
 
-These aren't really steps, though. In practice they keep feeding into each other. What context you have changes how work should be routed, which changes what the system needs to retrieve. Procedures change what actually gets executed. And evaluation is usually what tells me which of the others to go back and fix. What I learn there often sends me back to the first.
+These aren't really steps, though. In practice they keep feeding into each other. What context you have changes how work should be routed, which changes what the system needs to retrieve. Procedures change what actually gets executed. And evaluation is often what tells me which of the others needs another look. What I learn there often sends me back to the first.
 
 Examples throughout are generic on purpose. Nothing here comes from customer or proprietary work.
 

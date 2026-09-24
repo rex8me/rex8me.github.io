@@ -4,7 +4,7 @@ parts:
   - label: "Part 1"
     need: "Start with the context the system actually needs."
     title: "Your AI or Theirs?"
-    blurb: "What an enterprise AI has to own to make good decisions, and why most of that context isn't something a general model could have picked up on its own."
+    blurb: "What an enterprise AI has to own to make good decisions, and why most of that context isn't something a general model could know on its own."
     slug: your-ai-or-theirs
   - label: "Part 2"
     need: "Decide which engine should handle each piece of work."
