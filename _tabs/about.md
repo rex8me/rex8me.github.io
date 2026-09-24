@@ -37,7 +37,11 @@ For a good while, the answer to most problems seemed to be XGBoost. And when som
 
 Some of my teammates now call these "retro models". I prefer *historically significant*. 😄
 
-After that came NLP and deep learning: Word2Vec, LSTMs, and BERT back when it felt like magic. Then search and retrieval, and eventually LLMs and agents.
+After that came NLP and deep learning: Word2Vec, LSTMs, and BERT back when it felt like magic.
+
+That era had its own rituals. Most of my debugging was some flavor of a tensor shape mismatch, and before you could even get there, you had to decide whether you were a Keras person or a TensorFlow person. I spent a lot of evenings with TensorBoard open, watching loss curves and hoping. When TensorFlow 2.0 finally shipped with Keras built in, it felt like a small public holiday.
+
+Then came search and retrieval, and eventually LLMs and agents.
 
 The models changed a lot along the way. The engineering problems didn't disappear, they just moved. I used to stare at a notebook wondering why the model was still running. Now I stare at a distributed system wondering why the agent is still running. I used to hunt for the one feature that might change the model. Now it's the one piece of context that might change the answer.
 
