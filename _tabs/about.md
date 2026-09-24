@@ -13,8 +13,6 @@ I'm Abinaya.
 
 I build AI systems, and this is where I write about the things I find interesting while doing it.
 
-Models. Agents. Search. Retrieval. Memory. Evaluation. Architecture. Weird experiments. Things that work, and things that very much don't.
-
 I don't have a fixed list of topics. AI moves too fast for that, and half the fun is not knowing what I'll be obsessed with next month.
 
 Some weeks it's how an agent should decide what to do next. Some weeks it's why a search system keeps returning the *almost* right document. Sometimes it's how you evaluate a model that quietly changed underneath you. And sometimes it's just a paper or an idea I couldn't leave alone.
@@ -23,7 +21,7 @@ The common thread is the engineering. What actually happens between the model an
 
 ### `day job`
 
-I build AI systems for enterprise: agents, retrieval, memory, evaluation, and all the unglamorous engineering it takes to keep them alive in production. It's where most of my opinions come from, usually the hard way.
+I build AI systems for enterprise: agents, retrieval, memory, evaluation, and all the unglamorous engineering it takes to keep them alive in production. It's where most of my opinions come from, usually after something breaks.
 
 ### `after hours`
 
