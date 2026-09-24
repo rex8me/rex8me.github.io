@@ -19,8 +19,8 @@ title: The Layer Between # the main title
 tagline: Notes on vertical AI, personal agents, and the architecture that connects them. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
-  Technical writing on applied AI: vertical assistants, retrieval, evaluation,
-  personal agents, and multi-agent architecture.
+  Building AI systems that move from answers to outcomes. Writing on AI
+  architecture, agentic systems, RAG, search, and evaluation.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.

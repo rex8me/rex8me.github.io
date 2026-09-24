@@ -50,3 +50,4 @@
   .flow-arrow { transform: rotate(90deg); }
   .flow-loop { border-top: 1px dashed var(--main-border-color); border-radius: .6rem; }
 }
+.feed-copy { display: flex; flex-wrap: wrap; gap: .5rem; align-items: center; } .feed-copy code { word-break: break-all; }

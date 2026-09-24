@@ -39,4 +39,6 @@ Engineers, architects, and technical leaders building or buying AI for real ente
 
 ## Follow along
 
-New parts are announced on [LinkedIn](https://www.linkedin.com/in/abinaya-govindan-59088311a/). You can also subscribe through the [RSS feed]({{ '/feed.xml' | relative_url }}).
+New parts are announced on LinkedIn, or you can get them in a feed reader.
+
+<p><a class="btn btn-primary me-2 mb-2" href="https://www.linkedin.com/in/abinaya-govindan-59088311a/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i>&nbsp; Follow on LinkedIn</a><a class="btn btn-outline-primary mb-2" href="{{ '/subscribe/' | relative_url }}">More ways to subscribe</a></p>
