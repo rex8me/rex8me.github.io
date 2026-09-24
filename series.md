@@ -15,9 +15,9 @@ General-purpose AI gets teams started remarkably quickly, and I don't want to un
 
 It's rarely a sign that generic AI failed. It's a sign that it isn't the whole answer.
 
-I've seen a version of this before. Around 2019 and 2020, chatbots were moving beyond the fairly narrow, intent-and-flow driven systems that had been common in enterprise deployments. The industry was putting more emphasis on context, multi-turn conversations, domain-specific knowledge, personalization, and connecting bots to the systems and workflows behind them.
+If this sounds familiar, it might be because we've been through a version of it before. Around 2019 and 2020, chatbots were moving beyond the fairly narrow, intent-and-flow driven systems that had been common in enterprise deployments. The emphasis was shifting toward context, multi-turn conversations, domain-specific knowledge, personalization, and connecting bots to the systems and workflows behind them.
 
-When I look at what's happening with agents now, some of that progression feels familiar. The technology is very different, and agents can do far more than those chatbots could. But the underlying question feels surprisingly similar: how do you take a generally capable system and give it enough context about its environment to do useful work?
+Looking at agents now, I see some of that same progression, and I suspect I'm not the only one. The technology is very different, and agents can do far more than those chatbots could. But the underlying question feels surprisingly similar: how do you take a generally capable system and give it enough context about its environment to do useful work?
 
 So the question I find myself asking has changed. It's less "which model should we use?" and more "what does the system around the model need to look like for this to actually work?"
 
