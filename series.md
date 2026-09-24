@@ -61,6 +61,6 @@ If you're building or buying AI for real enterprise work, especially where a pla
 
 ## Follow along
 
-New parts are announced on LinkedIn, or you can get them in a feed reader.
+New parts are announced on LinkedIn.
 
-<p><a class="btn btn-primary me-2 mb-2" href="https://www.linkedin.com/in/abinaya-govindan-59088311a/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i>&nbsp; Follow on LinkedIn</a><a class="btn btn-outline-primary mb-2" href="{{ '/subscribe/' | relative_url }}">More ways to subscribe</a></p>
+<p><a class="btn btn-primary me-2 mb-2" href="https://www.linkedin.com/in/abinaya-govindan-59088311a/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i>&nbsp; Follow on LinkedIn</a><a class="btn btn-outline-primary mb-2" href="{{ '/' | relative_url }}">← Back to rex8me.github.io</a></p>
