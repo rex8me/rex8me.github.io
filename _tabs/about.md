@@ -15,7 +15,7 @@ I build AI systems, and this is where I write about the things I find interestin
 
 I don't have a fixed list of topics. AI moves too fast for that, and half the fun is not knowing what I'll be obsessed with next month.
 
-Some weeks it's how an agent should decide what to do next. Some weeks it's why a search system keeps returning the *almost* right document. Sometimes it's how you evaluate a model that quietly changed underneath you. And sometimes it's just a paper or an idea I couldn't leave alone.
+Some weeks it's how an agent should decide what to do next. Some weeks it's why a search system keeps returning the *almost* right document. Sometimes it's how you evaluate a model that quietly changed underneath you. Every now and then it's a plain old classical ML problem that turns out to still be the right answer. And sometimes it's just a paper or an idea I couldn't leave alone.
 
 The common thread is the engineering. What actually happens between the model and the thing we're trying to build? That gap is where most of the interesting problems live. Most of the bugs, too.
 
@@ -29,9 +29,19 @@ I tinker. Quick POCs, half-finished experiments, the occasional thing that grows
 
 ### `a bit of history`
 
-I started out in NLP, back when Word2Vec and LSTMs were the exciting new thing and BERT felt like magic. The models have changed a *lot* since then. The engineering problems didn't go away. They just moved: from "how do I train this model?" to "how do I build a system around it that actually holds up?"
+I started out staring into Jupyter notebooks for what was probably an unreasonable amount of time, trying to work out why my latest model was taking forever to train.
 
-That second question is the one I keep poking at.
+A lot of those years went into hunting for the golden feature. The one that was surely going to change everything. Occasionally it even did.
+
+For a good while, the answer to most problems seemed to be XGBoost. And when something mysteriously hung, the first suspect was usually also XGBoost, or more accurately some setup detail I'd gotten slightly wrong.
+
+Some of my teammates now call these "retro models". I prefer *historically significant*. 😄
+
+After that came NLP and deep learning: Word2Vec, LSTMs, and BERT back when it felt like magic. Then search and retrieval, and eventually LLMs and agents.
+
+The models changed a lot along the way. The engineering problems didn't disappear, they just moved. I used to stare at a notebook wondering why the model was still running. Now I stare at a distributed system wondering why the agent is still running. I used to hunt for the one feature that might change the model. Now it's the one piece of context that might change the answer.
+
+The part I enjoy hasn't really changed: figuring out why a system isn't doing what I thought it would, and then making it a bit better.
 
 ### `currently exploring`
 
