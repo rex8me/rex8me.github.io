@@ -43,7 +43,7 @@ That era had its own rituals. Most of my debugging was some flavor of a tensor s
 
 Then came search and retrieval, and eventually LLMs and agents.
 
-The models changed a lot along the way. The engineering problems didn't disappear, they just moved. I used to stare at a notebook wondering why the model was still running. Now I stare at a distributed system wondering why the agent is still running. I used to hunt for the one feature that might change the model. Now it's the one piece of context that might change the answer.
+The models changed a lot along the way. The engineering problems didn't disappear. They just moved. I used to stare at a notebook wondering why the model was still running. Now I stare at a distributed system wondering why the agent is still running. I used to hunt for the one feature that might change the model. Now it's the one piece of context that might change the answer.
 
 The part I enjoy hasn't really changed: figuring out why a system isn't doing what I thought it would, and then making it a bit better.
 
