@@ -29,7 +29,7 @@ I think more of the industry will move in this direction: general-purpose AI whe
 
 None of this is a finished framework. It's the current state of my thinking, shaped by experiments, production issues and a fair number of wrong turns, and I expect parts of it to change as the models and tools do.
 
-<p class="series-question">The question I keep coming back to: what does a specialist AI actually need to become useful?</p>
+<p class="series-question">So the question I'm really trying to answer is: what does a specialist AI actually need to become useful?</p>
 
 So far, my answer looks roughly like this:
 
@@ -47,7 +47,7 @@ So far, my answer looks roughly like this:
 {% endfor %}
 </ol>
 
-These aren't really steps, though. They don't happen in a fixed order, and which one matters most depends on the task: how complex it is, how much context it needs, and what kind of work it actually is. They also keep feeding into each other. What context you have changes how work should be routed, which changes what the system needs to retrieve. Procedures change what actually gets executed. And evaluation is often what tells me which of the others needs another look. What I learn there often sends me back to the first.
+These aren't really steps, though. They don't happen in a fixed order, and which one matters most depends on the task: how complex it is, how much context it needs, and what kind of work it actually is. They also keep feeding into each other. What context you have changes how work should be routed, which changes what the system needs to retrieve. Procedures change what actually gets executed. And evaluation is often what tells me which of the others needs another look. What I learn there usually sends me back to the first.
 
 Examples throughout are generic on purpose. Nothing here comes from customer or proprietary work.
 
