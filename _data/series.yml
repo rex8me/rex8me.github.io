@@ -1,0 +1,15 @@
+name: "Your AI or Theirs?"
+description: "A series on building specialist AI: who owns the context, how to route between models, how to encode workflows, and how to prove it all works."
+parts:
+  - title: "Your AI or Theirs? Who Owns the Context in Enterprise AI"
+    slug: your-ai-or-theirs
+  - title: "The Orchestrator: Routing Between Generic LLMs, Domain Models, and Specialist AI"
+    slug: the-orchestrator
+  - title: "Workflows as Memory: Procedural Memory and Deterministic Execution"
+    slug: workflows-as-memory
+  - title: "Proving It: Evaluating Specialist AI"
+    slug: proving-it
+  - title: "Living With Change: Evolving Models, Prompts, and Procedures"
+    slug: living-with-change
+  - title: "The Personal AI Layer: When Users Bring Their Own Agent"
+    slug: personal-ai-layer

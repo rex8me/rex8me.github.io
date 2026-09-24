@@ -4,6 +4,18 @@ icon: fas fa-pen-nib
 order: 1
 ---
 
+{% assign series = site.data.series %}
+<div class="writing-section series-box" id="series">
+  <h2>Series: {{ series.name }}</h2>
+  <p class="section-desc">{{ series.description }}</p>
+  <ol>
+  {% for part in series.parts %}
+    {% assign match = site.posts | where_exp: "p", "p.slug == part.slug" | first %}
+    <li>{% if match %}<a href="{{ match.url | relative_url }}">{{ part.title }}</a>{% else %}{{ part.title }} <small class="writing-empty">· coming soon</small>{% endif %}</li>
+  {% endfor %}
+  </ol>
+</div>
+
 {% assign sections = site.data.sections %}
 {% for sec in sections %}
 <div class="writing-section" id="{{ sec.slug }}">
