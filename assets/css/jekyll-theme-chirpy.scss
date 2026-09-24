@@ -25,4 +25,15 @@
 .writing-section .section-desc { color: var(--text-muted-color); margin-bottom: .5rem; }
 .writing-empty { color: var(--text-muted-color); font-style: italic; }
 .series-box { padding: 1rem 1.25rem; border: 1px solid var(--main-border-color); border-radius: .6rem; }
-.series-parts { list-style: none; padding-left: 0; } .series-parts li { margin: .35rem 0; }
+.series-parts { list-style: none; padding-left: 0; margin: .75rem 0; }
+.series-part { display: flex; gap: .9rem; align-items: baseline; padding: .6rem 0; border-bottom: 1px dashed var(--main-border-color); }
+.series-part:last-child { border-bottom: none; }
+.series-part.is-addendum { padding-left: 1.5rem; }
+.series-label { flex: 0 0 5.2rem; font-size: .8rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; color: var(--text-muted-color); }
+.series-title { font-weight: 600; }
+.series-soon { font-size: .75rem; margin-left: .4rem; padding: .05rem .45rem; border: 1px solid var(--main-border-color); border-radius: 1rem; color: var(--text-muted-color); }
+.series-blurb { margin: .2rem 0 0; color: var(--text-muted-color); font-size: .95rem; }
+.series-part.more .series-title { font-weight: 400; font-style: italic; color: var(--text-muted-color); }
+.series-hero-tagline { font-size: 1.2rem; font-weight: 500; }
+.series-cta { margin: 1.5rem 0; }
+@media (max-width: 576px) { .series-part { flex-direction: column; gap: .15rem; } .series-part.is-addendum { padding-left: .75rem; } }

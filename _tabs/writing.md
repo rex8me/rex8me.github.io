@@ -6,14 +6,9 @@ order: 1
 
 {% assign series = site.data.series %}
 <div class="writing-section series-box" id="series">
-  <h2>Series: {{ series.name }}</h2>
-  <p class="section-desc">{{ series.description }}</p>
-  <ul class="series-parts">
-  {% for part in series.parts %}
-    {% assign match = site.posts | where_exp: "p", "p.slug == part.slug" | first %}
-    <li><strong>{{ part.label }}:</strong> {% if match %}<a href="{{ match.url | relative_url }}">{{ part.title }}</a>{% else %}{{ part.title }} <small class="writing-empty">· coming soon</small>{% endif %}</li>
-  {% endfor %}
-  </ul>
+  <h2>Series: <a href="{{ '/series/' | relative_url }}">{{ series.name }}</a></h2>
+  <p class="section-desc">{{ series.tagline }}</p>
+  {% include series-parts.html %}
 </div>
 
 {% assign sections = site.data.sections %}

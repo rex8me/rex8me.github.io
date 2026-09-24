@@ -1,21 +1,20 @@
 name: "From Answers to Outcomes"
-description: "A series on building specialist AI: who owns the context, how to route every step to the right engine, how to ground and encode workflows, and how to prove it all works as models keep changing."
+tagline: "A series on building specialist AI that does more than answer."
+description: "Ready-made AI gets you started. Owning your context is what compounds. This series explores what it takes to build specialist AI for real enterprise work, and how to prove it works."
 parts:
   - label: "Part 1"
-    title: "Your AI or Theirs? Who Owns the Context in Enterprise AI"
+    title: "Your AI or Theirs?"
+    blurb: "Who owns the context your AI needs, and why that decides the build-vs-buy question."
     slug: your-ai-or-theirs
   - label: "Part 2"
-    title: "The Orchestrator: Routing Every Step to the Right Engine"
+    title: "The Orchestrator"
+    blurb: "How a specialist AI decides which engine should handle each step."
     slug: the-orchestrator
   - label: "Addendum"
     title: "When the Caller Is a Personal AI"
+    blurb: "What changes when your users bring their own agent."
     slug: when-the-caller-is-a-personal-ai
   - label: "Part 3"
-    title: "Grounding: Retrieval Over Organization Context"
-    slug: grounding
-  - label: "Part 4"
-    title: "Workflows as Memory: Procedural Memory and Deterministic Execution"
-    slug: workflows-as-memory
-  - label: "Part 5"
-    title: "Proving It and Keeping It Proven: Evaluation and Evolving Models, Prompts, and Procedures"
+    title: "Proving It and Keeping It Proven"
+    blurb: "Showing a specialist AI is actually better, and keeping it that way as everything changes."
     slug: proving-it
