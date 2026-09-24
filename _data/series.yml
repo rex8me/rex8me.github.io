@@ -1,15 +1,21 @@
-name: "Your AI or Theirs?"
-description: "A series on building specialist AI: who owns the context, how to route between models, how to encode workflows, and how to prove it all works."
+name: "From Answers to Outcomes"
+description: "A series on building specialist AI: who owns the context, how to route every step to the right engine, how to ground and encode workflows, and how to prove it all works as models keep changing."
 parts:
-  - title: "Your AI or Theirs? Who Owns the Context in Enterprise AI"
+  - label: "Part 1"
+    title: "Your AI or Theirs? Who Owns the Context in Enterprise AI"
     slug: your-ai-or-theirs
-  - title: "The Orchestrator: Routing Between Generic LLMs, Domain Models, and Specialist AI"
+  - label: "Part 2"
+    title: "The Orchestrator: Routing Every Step to the Right Engine"
     slug: the-orchestrator
-  - title: "Workflows as Memory: Procedural Memory and Deterministic Execution"
+  - label: "Addendum"
+    title: "When the Caller Is a Personal AI"
+    slug: when-the-caller-is-a-personal-ai
+  - label: "Part 3"
+    title: "Grounding: Retrieval Over Organization Context"
+    slug: grounding
+  - label: "Part 4"
+    title: "Workflows as Memory: Procedural Memory and Deterministic Execution"
     slug: workflows-as-memory
-  - title: "Proving It: Evaluating Specialist AI"
+  - label: "Part 5"
+    title: "Proving It and Keeping It Proven: Evaluation and Evolving Models, Prompts, and Procedures"
     slug: proving-it
-  - title: "Living With Change: Evolving Models, Prompts, and Procedures"
-    slug: living-with-change
-  - title: "The Personal AI Layer: When Users Bring Their Own Agent"
-    slug: personal-ai-layer
