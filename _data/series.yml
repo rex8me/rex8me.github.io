@@ -22,7 +22,7 @@ parts:
     blurb: "Where expert know-how should become repeatable, deterministic behavior, and where the model should still be free to reason."
     slug: from-knowing-to-doing
   - label: "Part 5"
-    need: "Keep testing it, because everything underneath it keeps changing."
+    need: "Keep testing it, because the things underneath it will change."
     title: "Proving It and Keeping It Proven"
     blurb: "Evaluation that still means something after the models, prompts and procedures underneath it have changed."
     slug: proving-it

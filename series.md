@@ -15,9 +15,13 @@ General-purpose AI gets teams started remarkably quickly, and I don't want to un
 
 It's rarely a sign that generic AI failed. It's a sign that it isn't the whole answer.
 
-At that point the question I find myself asking changes. It's less "which model should we use?" and more "what does the system around the model need to look like for this to actually work?"
+I've seen a version of this before. Around 2019 and 2020, a lot of my work was on chatbots and the NLU underneath them. They started out fairly generic: a set of intents and answers, and a lot of effort just to keep the conversation on track. What made them worth it for enterprises was when they got specific: tuned to the business's domain, aware of the user and the situation, and eventually wired into the workflows people were actually doing.
 
-The more I build these systems, the less I think the model itself is the interesting part. Models still matter, a lot. But they keep getting better and easier to swap, and in the systems I've worked on, the harder problems tend to sit around them: the context the system can draw on, how work gets routed, whether retrieval respects the situation it's in, which tools it can use and with what permissions, how it's evaluated, and how feedback finds its way back in.
+When I look at what's happening with agents now, some of that progression feels familiar. The technology is very different, and agents can do far more than those chatbots could. But the underlying question feels surprisingly similar: how do you take a generally capable system and get it to understand enough about its environment to do useful work?
+
+So the question I find myself asking has changed. It's less "which model should we use?" and more "what does the system around the model need to look like for this to actually work?"
+
+The more I build these systems, the less I think the model itself is the interesting part. Models still matter, a lot. But they keep getting better and easier to swap, and in the systems I've worked on, the harder problems tend to sit around them: the context the system can draw on, how work gets routed, whether retrieval respects the situation it's in, which tools it can use and with what permissions, how it's evaluated, and how what we learn from using it finds its way back into the system.
 
 One thing I keep coming back to is repetition. Some work should stay open-ended, and that's where models are at their best. But when the same kind of problem comes up often enough, whether people are solving it or an agent is, you eventually want the system to know the reliable way to handle it instead of working it out from scratch every time. That's where ideas like procedural memory start to get interesting, and I think they have a lot to do with making enterprise AI more stable and consistent.
 
