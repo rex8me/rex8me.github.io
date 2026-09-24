@@ -13,13 +13,17 @@ Every enterprise is asking the same question: *roll out a ready-made AI assistan
 
 Ready-made assistants are genuinely good. They get you off the ground fast, and for generic work they're often all you need. But as the work gets more specific to your domain, your products, and your way of doing things, the share they can handle on their own keeps shrinking.
 
-This series is about what fills that gap: **specialist AI** that owns your context, knows when to follow a fixed procedure and when to reason freely, and gets better at *your* work over time.
+This series is about what fills that gap: **specialist AI** that owns the right context, makes the right decision at each step, and gets better at *your* work over time.
 
-## Who it's for
+## The backbone
 
-Engineers, architects, and technical leaders building or buying AI for real enterprise work, especially in domains where a plausible answer isn't good enough.
+The series isn't *AI → RAG → agents → evals*. It follows the order in which a specialist AI actually has to get things right:
 
-## The series
+{% include series-flow.html %}
+
+Each part answers one question. Together they make one loop: what you learn when you **prove** the system feeds straight back into what it **owns**.
+
+## The parts
 
 {% include series-parts.html blurbs=true %}
 
@@ -28,6 +32,10 @@ Engineers, architects, and technical leaders building or buying AI for real ente
 {% else %}
 <p class="series-cta text-muted"><em>Part 1 is coming soon.</em></p>
 {% endif %}
+
+## Who it's for
+
+Engineers, architects, and technical leaders building or buying AI for real enterprise work, especially in domains where a plausible answer isn't good enough.
 
 ## Follow along
 

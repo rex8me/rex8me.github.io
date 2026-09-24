@@ -1,20 +1,38 @@
 name: "From Answers to Outcomes"
 tagline: "A series on building specialist AI that does more than answer."
-description: "Ready-made AI gets you started. Owning your context is what compounds. This series explores what it takes to build specialist AI for real enterprise work, and how to prove it works."
+backbone: "Own → Route → Ground → Execute → Prove"
 parts:
   - label: "Part 1"
+    verb: "Own"
+    question: "What context should the AI own?"
     title: "Your AI or Theirs?"
-    blurb: "Who owns the context your AI needs, and why that decides the build-vs-buy question."
+    blurb: "Domain knowledge, organization context, and user context, and why the organization's own context is the real differentiator."
     slug: your-ai-or-theirs
   - label: "Part 2"
+    verb: "Route"
+    question: "Which engine should handle each step?"
     title: "The Orchestrator"
-    blurb: "How a specialist AI decides which engine should handle each step."
+    blurb: "Deciding, step by step, between a general LLM, a domain model, and a fixed procedure."
     slug: the-orchestrator
   - label: "Addendum"
     title: "When the Caller Is a Personal AI"
     blurb: "What changes when your users bring their own agent."
     slug: when-the-caller-is-a-personal-ai
   - label: "Part 3"
+    verb: "Ground"
+    question: "How do you know you retrieved the right thing?"
+    title: "Getting It Right"
+    blurb: "Finding the right content for this product, this version, and this user."
+    slug: getting-it-right
+  - label: "Part 4"
+    verb: "Execute"
+    question: "What knowledge should become deterministic behavior?"
+    title: "From Knowing to Doing"
+    blurb: "Turning how your experts work into behavior the AI can follow reliably."
+    slug: from-knowing-to-doing
+  - label: "Part 5"
+    verb: "Prove"
+    question: "How do you know it works, and change it without breaking it?"
     title: "Proving It and Keeping It Proven"
-    blurb: "Showing a specialist AI is actually better, and keeping it that way as everything changes."
+    blurb: "Evaluation, safe upgrades, and the feedback loop that makes it compound."
     slug: proving-it
