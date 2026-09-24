@@ -7,7 +7,7 @@ parts:
     blurb: "What an enterprise AI has to own to make good decisions, and why most of that context isn't something a general model could know on its own."
     slug: your-ai-or-theirs
   - label: "Part 2"
-    need: "Decide which engine should handle each piece of work."
+    need: "Figure out what should do what, and let the system decide."
     title: "The Orchestrator"
     blurb: "Some steps are generic, some are deeply domain-specific, and some must follow a fixed procedure. Something has to tell them apart."
     slug: the-orchestrator
