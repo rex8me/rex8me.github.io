@@ -11,11 +11,17 @@ permalink: /series/
 
 This series is me writing down what I've learned from building agentic AI systems for enterprise teams: what worked, what broke, and what I'd do differently next time.
 
-Over the last few years I've seen the same pattern more than once. A general-purpose assistant gets a team started quickly, and it's genuinely useful. Then, as it becomes part of everyday work, people start stretching it: pushing it into more specific workflows and testing where its limits are.
+General-purpose AI gets teams started remarkably quickly, and I don't want to undersell that. It's genuinely useful. But I've seen the same thing happen more than once. As it becomes part of everyday work, people start stretching it into more specific workflows and testing where its limits are. That's usually when the outliers show up, and the hard cases start to depend on things the model doesn't come with: the organization's own products and processes, decisions it has made before, the procedures people are expected to follow, what a particular user is allowed to see and do.
 
-That's usually when the outliers show up. The hard cases start to depend more and more on the company's own products, processes, customers and context. It's rarely a sign that generic AI failed. It's a sign that it isn't the whole answer. What held up in practice was a layered approach: general-purpose AI where it's strong, combined with domain-specific, custom-built AI where the work demands it, all built around the organization's own context.
+It's rarely a sign that generic AI failed. It's a sign that it isn't the whole answer.
 
-My working theory is that more of the industry will move in that direction, toward what I'll call **specialist AI**. These articles are my attempt to explain why, and to work out what it actually takes to build that specialist layer in practice.
+At that point the question I find myself asking changes. It's less "which model should we use?" and more "what does the system around the model need to look like for this to actually work?"
+
+The more I build these systems, the less I think the model itself is the interesting part. Models still matter, a lot. But they keep getting better and easier to swap, and in the systems I've worked on, the harder problems tend to sit around them: the context the system can draw on, how work gets routed, whether retrieval respects the situation it's in, which tools it can use and with what permissions, how it's evaluated, and how feedback finds its way back in.
+
+One thing I keep coming back to is repetition. Some work should stay open-ended, and that's where models are at their best. But when the same kind of problem comes up often enough, whether people are solving it or an agent is, you eventually want the system to know the reliable way to handle it instead of working it out from scratch every time. That's where ideas like procedural memory start to get interesting, and I think they have a lot to do with making enterprise AI more stable and consistent.
+
+My working theory is that more of the industry will move in this direction: general-purpose AI where it's strong, combined with domain-specific, custom-built pieces where the work demands it, all built around the organization's own context. I've been calling that *specialist AI*. It's a working term, not a claim to have found the definitive architecture. These articles are my attempt to explain why I think it matters, and to work out what it actually takes to build in practice.
 
 None of this is a finished framework. It's the current state of my thinking, shaped by experiments, production issues and a fair number of wrong turns, and I expect parts of it to change as the models and tools do.
 
@@ -37,7 +43,9 @@ So far, my answer looks roughly like this:
 {% endfor %}
 </ol>
 
-In practice these don't happen in a neat order. Context only helps if the system knows how to use it, retrieval only matters if it feeds the right decisions, and none of it counts until you can show it still works a few months later. What I learn in that last step usually sends me back to the first.
+These aren't really steps, though. In practice they keep feeding into each other. What context you have changes how work should be routed, which changes what the system needs to retrieve. Procedures change what actually gets executed. And evaluation is usually what tells me which of the others to go back and fix. What I learn there often sends me back to the first.
+
+Examples throughout are generic on purpose. Nothing here comes from customer or proprietary work.
 
 {% if first %}
 <p class="series-cta"><a class="btn btn-primary" href="{{ first.url | relative_url }}">Start with Part 1 →</a></p>

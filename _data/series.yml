@@ -7,7 +7,7 @@ parts:
     blurb: "What an enterprise AI has to own to make good decisions, and why most of that context was never public in the first place."
     slug: your-ai-or-theirs
   - label: "Part 2"
-    need: "Then decide which engine should handle each piece of work."
+    need: "Decide which engine should handle each piece of work."
     title: "The Orchestrator"
     blurb: "Some steps are generic, some are deeply domain-specific, and some must follow a fixed procedure. Something has to tell them apart."
     slug: the-orchestrator
@@ -22,7 +22,7 @@ parts:
     blurb: "Where expert know-how should become repeatable, deterministic behavior, and where the model should still be free to reason."
     slug: from-knowing-to-doing
   - label: "Part 5"
-    need: "And keep testing it, because everything underneath it will change."
+    need: "Keep testing it, because everything underneath it keeps changing."
     title: "Proving It and Keeping It Proven"
     blurb: "Evaluation that still means something after the models, prompts and procedures underneath it have changed."
     slug: proving-it
