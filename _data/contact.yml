@@ -8,7 +8,7 @@
   url: "https://www.linkedin.com/in/abinaya-govindan-59088311a/"
 
 
-- type: rss
+- type: subscribe
   icon: "fas fa-rss"
   url: "/subscribe/"
   noblank: true
