@@ -4,61 +4,55 @@ icon: fas fa-info-circle
 order: 3
 ---
 
-I'm **Abinaya Govindan**, and I build AI systems.
+```console
+$ whoami
+abinaya  # aka rex8me. builds AI systems, breaks a few along the way.
+```
 
-I've spent the last 11 years working across NLP, search, machine learning, LLMs and, more recently, agentic AI. Most of my work sits at the intersection of models, systems and the messy reality of putting AI into production.
+I'm Abinaya.
 
-Today I lead the agentic AI charter at an enterprise AI startup, owning the architecture, the roadmap and the team that takes multi-agent systems from prototype to production for real customers.
+I build AI systems, and this is where I write about the things I find interesting while doing it.
 
-The question I keep coming back to is:
+Models. Agents. Search. Retrieval. Memory. Evaluation. Architecture. Weird experiments. Things that work, and things that very much don't.
 
-> **How do you get from an AI that answers to an AI that delivers outcomes?**
+I don't have a fixed list of topics. AI moves too fast for that, and half the fun is not knowing what I'll be obsessed with next month.
 
-That's what this site is about.
+Some weeks it's how an agent should decide what to do next. Some weeks it's why a search system keeps returning the *almost* right document. Sometimes it's how you evaluate a model that quietly changed underneath you. And sometimes it's just a paper or an idea I couldn't leave alone.
 
-I write about the architecture behind production AI: how agents reason and delegate, how systems retrieve and use context, how memory should work, where deterministic workflows belong, and how we evaluate AI when "looks good in a demo" isn't good enough.
+The common thread is the engineering. What actually happens between the model and the thing we're trying to build? That gap is where most of the interesting problems live. Most of the bugs, too.
 
-## What I'm exploring
+### `day job`
 
-**🧠 Agentic AI**<br>
-Multi-agent systems, orchestration, delegation, memory, tools and the protocols that connect agents.
+I build AI systems for enterprise: agents, retrieval, memory, evaluation, and all the unglamorous engineering it takes to keep them alive in production. It's where most of my opinions come from, usually the hard way.
 
-**🔎 RAG & Search**<br>
-Retrieval, hybrid search, reranking, query understanding, grounding and search systems at scale.
+### `after hours`
 
-**⚙️ AI Architecture**<br>
-The decisions behind production AI systems: model selection, routing, system boundaries, reliability, latency and cost.
+I tinker. Quick POCs, half-finished experiments, the occasional thing that grows into a real project. If it breaks in an interesting way, it'll probably end up here.
 
-**📏 AI Evaluation**<br>
-Golden datasets, regression testing, evaluation loops and figuring out whether an AI system actually got better.
+### `a bit of history`
 
-**🧪 Things I'm building and breaking**<br>
-Experiments, prototypes, architecture patterns and lessons from getting AI systems to behave in the real world.
+I started out in NLP, back when Word2Vec and LSTMs were the exciting new thing and BERT felt like magic. The models have changed a *lot* since then. The engineering problems didn't go away. They just moved: from "how do I train this model?" to "how do I build a system around it that actually holds up?"
 
-## A little context
+That second question is the one I keep poking at.
 
-I started my career in NLP, working with techniques like Word2Vec, RNNs, LSTMs and BERT long before "GenAI" became a job description.
+### `currently exploring`
 
-Since then, the models have changed dramatically.
+- which model (or which non-model) should handle which step
+- procedural memory: getting agents to do things the way experts actually do them
+- evaluation that doesn't fall apart the moment you swap the model
 
-**The engineering problems haven't disappeared. They've moved.**
+A lot of this is going into a series right now, [From Answers to Outcomes]({{ '/series/' | relative_url }}): my notes on what specialist AI needs to be useful for real enterprise work. It's one thread, not the whole site. There'll be others.
 
-From *"How do I train the model?"* to *"How do I build the system around the model?"*
+### `what you'll find here`
 
-That's the part I find interesting.
+Notes, diagrams, code, trade-offs, and the occasional post-mortem. Not predictions. Not hot takes (okay, maybe a few). Mostly me working things out in public.
 
-## What you'll find here
+Examples are generic on purpose. Nothing here comes from customer or proprietary work.
 
-This isn't a collection of polished AI predictions.
+### `ping`
 
-It's where I try to work through technical questions in public, with architecture diagrams, experiments, trade-offs, code and, occasionally, things that didn't work.
+If something here helped, or you think I got it wrong, tell me. I'd honestly like to know.
 
-The examples are generic and architectural. They draw on hands-on experience without exposing customer or proprietary information.
+[LinkedIn](https://www.linkedin.com/in/abinaya-govindan-59088311a/) · [GitHub](https://github.com/rex8me) · [older research]({{ '/publications/' | relative_url }})
 
-If you're building AI systems too, hopefully something here saves you a few hours, or gives you something to argue with.
-
-## Elsewhere
-
-[LinkedIn](https://www.linkedin.com/in/abinaya-govindan-59088311a/) · [GitHub](https://github.com/rex8me) · [Publications]({{ '/publications/' | relative_url }})
-
-*Views expressed here are my own and do not represent my employer.*
+<small>*Views are my own, not my employer's.*</small>
