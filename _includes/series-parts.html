@@ -2,8 +2,8 @@
 <ul class="series-parts">
 {% for part in series.parts %}
   {% assign match = site.posts | where_exp: "p", "p.slug == part.slug" | first %}
-  <li class="series-part{% if part.label == 'Addendum' %} is-addendum{% endif %}">
-    <span class="series-label">{{ part.label }}{% if part.verb %}<br><strong>{{ part.verb }}</strong>{% endif %}</span>
+  <li class="series-part">
+    <span class="series-label">{{ part.label }}</span>
     <div>
       {% if match %}<a class="series-title" href="{{ match.url | relative_url }}">{{ part.title }}</a>
       {% else %}<span class="series-title">{{ part.title }}</span> <span class="series-soon">coming soon</span>{% endif %}

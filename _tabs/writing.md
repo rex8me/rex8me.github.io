@@ -7,7 +7,7 @@ order: 1
 {% assign series = site.data.series %}
 <div class="writing-section series-box" id="series">
   <h2>Series: <a href="{{ '/series/' | relative_url }}">{{ series.name }}</a></h2>
-  <p class="section-desc">{{ series.tagline }} <strong>{{ series.backbone }}</strong></p>
+  <p class="section-desc">{{ series.tagline }}</p>
   {% include series-parts.html %}
 </div>
 

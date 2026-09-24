@@ -7,25 +7,29 @@ permalink: /series/
 {% assign series = site.data.series %}
 {% assign first = site.posts | where_exp: "p", "p.slug == 'your-ai-or-theirs'" | first %}
 
-<p class="series-hero-tagline">{{ series.tagline }}</p>
+Every enterprise is asking some version of the same question: *roll out a ready-made AI assistant, or build our own?*
 
-Every enterprise is asking the same question: *roll out a ready-made AI assistant, or build our own?*
+Ready-made assistants are genuinely good. They get you off the ground fast, and for generic work they're often all you need. But as the work becomes more specific to your domain, your products and your way of doing things, the share they can handle on their own keeps shrinking.
 
-Ready-made assistants are genuinely good. They get you off the ground fast, and for generic work they're often all you need. But as the work gets more specific to your domain, your products, and your way of doing things, the share they can handle on their own keeps shrinking.
+This series is about what fills that gap. It starts from one question:
 
-This series is about what fills that gap: **specialist AI** that owns the right context, makes the right decision at each step, and gets better at *your* work over time.
+<p class="series-question">What does a specialist AI actually need to become useful?</p>
 
-## The backbone
+<ol class="series-argument">
+{% for part in series.parts %}
+  {% assign match = site.posts | where_exp: "p", "p.slug == part.slug" | first %}
+  <li>
+    <p class="arg-need">{{ part.need }}</p>
+    <p class="arg-part">
+      <span class="arg-label">{{ part.label }}</span>
+      {% if match %}<a href="{{ match.url | relative_url }}">{{ part.title }}</a>{% else %}<span class="arg-title">{{ part.title }}</span> <span class="series-soon">coming soon</span>{% endif %}
+    </p>
+    <p class="arg-blurb">{{ part.blurb }}</p>
+  </li>
+{% endfor %}
+</ol>
 
-The series isn't *AI → RAG → agents → evals*. It follows the order in which a specialist AI actually has to get things right:
-
-{% include series-flow.html %}
-
-Each part answers one question. Together they make one loop: what you learn when you **prove** the system feeds straight back into what it **owns**.
-
-## The parts
-
-{% include series-parts.html blurbs=true %}
+None of these stands alone. Context is only useful if the system knows how to use it, retrieval only matters if it feeds the right decisions, and none of it counts until you can show it still works next quarter. What you learn in that last step usually sends you back to the first.
 
 {% if first %}
 <p class="series-cta"><a class="btn btn-primary" href="{{ first.url | relative_url }}">Start with Part 1 →</a></p>
@@ -35,7 +39,7 @@ Each part answers one question. Together they make one loop: what you learn when
 
 ## Who it's for
 
-Engineers, architects, and technical leaders building or buying AI for real enterprise work, especially in domains where a plausible answer isn't good enough.
+Engineers, architects and technical leaders building or buying AI for real enterprise work, especially in domains where a plausible answer isn't good enough.
 
 ## Follow along
 
