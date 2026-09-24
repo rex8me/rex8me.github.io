@@ -1,5 +1,5 @@
 name: "From Answers to Outcomes"
-tagline: "What does a specialist AI actually need to become useful?"
+tagline: "Notes from building agentic AI for the enterprise, and where I think specialist AI is heading."
 parts:
   - label: "Part 1"
     need: "It needs access to the right context."

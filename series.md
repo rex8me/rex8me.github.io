@@ -7,13 +7,19 @@ permalink: /series/
 {% assign series = site.data.series %}
 {% assign first = site.posts | where_exp: "p", "p.slug == 'your-ai-or-theirs'" | first %}
 
-Every enterprise is asking some version of the same question: *roll out a ready-made AI assistant, or build our own?*
+<p class="series-hero-tagline">Notes from building agentic AI for the enterprise.</p>
 
-Ready-made assistants are genuinely good. They get you off the ground fast, and for generic work they're often all you need. But as the work becomes more specific to your domain, your products and your way of doing things, the share they can handle on their own keeps shrinking.
+This series is me writing down what I've learned from building agentic AI systems for enterprise teams: what worked, what broke, and what I'd do differently next time.
 
-This series is about what fills that gap. It starts from one question:
+Over the last few years I've seen the same pattern more than once. A general-purpose assistant gets a team started quickly, and it's genuinely useful. Then, as the work becomes more specific to the company's products, processes and customers, it starts to fall short in fairly predictable ways. The systems that held up were the ones built around the organization's own context.
 
-<p class="series-question">What does a specialist AI actually need to become useful?</p>
+My working theory is that more of the industry will move in that direction, toward what I'll call **specialist AI**. These articles are my attempt to explain why, and what it seems to take in practice.
+
+None of this is a finished framework. It's the current state of my thinking, shaped by experiments, production issues and a fair number of wrong turns, and I expect parts of it to change as the models and tools do.
+
+<p class="series-question">The question I keep coming back to: what does a specialist AI actually need to become useful?</p>
+
+So far, my answer has five parts:
 
 <ol class="series-argument">
 {% for part in series.parts %}
@@ -29,7 +35,7 @@ This series is about what fills that gap. It starts from one question:
 {% endfor %}
 </ol>
 
-None of these stands alone. Context is only useful if the system knows how to use it, retrieval only matters if it feeds the right decisions, and none of it counts until you can show it still works next quarter. What you learn in that last step usually sends you back to the first.
+In practice these don't happen in a neat order. Context only helps if the system knows how to use it, retrieval only matters if it feeds the right decisions, and none of it counts until you can show it still works a few months later. What I learn in that last step usually sends me back to the first.
 
 {% if first %}
 <p class="series-cta"><a class="btn btn-primary" href="{{ first.url | relative_url }}">Start with Part 1 →</a></p>
@@ -39,7 +45,7 @@ None of these stands alone. Context is only useful if the system knows how to us
 
 ## Who it's for
 
-Engineers, architects and technical leaders building or buying AI for real enterprise work, especially in domains where a plausible answer isn't good enough.
+If you're building or buying AI for real enterprise work, especially where a plausible answer isn't good enough, I hope some of this saves you time. And if your experience says otherwise, I'd genuinely like to hear it.
 
 ## Follow along
 
