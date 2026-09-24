@@ -11,7 +11,9 @@ permalink: /series/
 
 This series is me writing down what I've learned from building agentic AI systems for enterprise teams: what worked, what broke, and what I'd do differently next time.
 
-Over the last few years I've seen the same pattern more than once. A general-purpose assistant gets a team started quickly, and it's genuinely useful. Then, as the work becomes more specific to the company's products, processes and customers, it starts to fall short in fairly predictable ways. The systems that held up were the ones built around the organization's own context.
+Over the last few years I've seen the same pattern more than once. A general-purpose assistant gets a team started quickly, and it's genuinely useful. Then, as it becomes part of everyday work, people start stretching it: pushing it into more specific workflows and testing where its limits are.
+
+That's usually when the outliers show up: the edge cases and corner cases tied to the company's own products, processes and customers. It's rarely a sign that generic AI failed. It's a sign that it isn't the whole answer. What held up in practice was a layered approach: general-purpose AI where it's strong, combined with domain-specific, custom-built AI where the work demands it, all built around the organization's own context.
 
 My working theory is that more of the industry will move in that direction, toward what I'll call **specialist AI**. These articles are my attempt to explain why, and what it seems to take in practice.
 
