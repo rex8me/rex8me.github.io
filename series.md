@@ -13,15 +13,15 @@ This series is me writing down what I've learned from building agentic AI system
 
 Over the last few years I've seen the same pattern more than once. A general-purpose assistant gets a team started quickly, and it's genuinely useful. Then, as it becomes part of everyday work, people start stretching it: pushing it into more specific workflows and testing where its limits are.
 
-That's usually when the outliers show up: the edge cases and corner cases tied to the company's own products, processes and customers. It's rarely a sign that generic AI failed. It's a sign that it isn't the whole answer. What held up in practice was a layered approach: general-purpose AI where it's strong, combined with domain-specific, custom-built AI where the work demands it, all built around the organization's own context.
+That's usually when the outliers show up. The hard cases start to depend more and more on the company's own products, processes, customers and context. It's rarely a sign that generic AI failed. It's a sign that it isn't the whole answer. What held up in practice was a layered approach: general-purpose AI where it's strong, combined with domain-specific, custom-built AI where the work demands it, all built around the organization's own context.
 
-My working theory is that more of the industry will move in that direction, toward what I'll call **specialist AI**. These articles are my attempt to explain why, and what it seems to take in practice.
+My working theory is that more of the industry will move in that direction, toward what I'll call **specialist AI**. These articles are my attempt to explain why, and to work out what it actually takes to build that specialist layer in practice.
 
 None of this is a finished framework. It's the current state of my thinking, shaped by experiments, production issues and a fair number of wrong turns, and I expect parts of it to change as the models and tools do.
 
 <p class="series-question">The question I keep coming back to: what does a specialist AI actually need to become useful?</p>
 
-So far, my answer has five parts:
+So far, my answer looks roughly like this:
 
 <ol class="series-argument">
 {% for part in series.parts %}
@@ -41,8 +41,6 @@ In practice these don't happen in a neat order. Context only helps if the system
 
 {% if first %}
 <p class="series-cta"><a class="btn btn-primary" href="{{ first.url | relative_url }}">Start with Part 1 →</a></p>
-{% else %}
-<p class="series-cta text-muted"><em>Part 1 is coming soon.</em></p>
 {% endif %}
 
 ## Who it's for

@@ -2,27 +2,27 @@ name: "From Answers to Outcomes"
 tagline: "Notes from building agentic AI for the enterprise, and where I think specialist AI is heading."
 parts:
   - label: "Part 1"
-    need: "It needs access to the right context."
+    need: "Start with the context the system actually needs."
     title: "Your AI or Theirs?"
     blurb: "What an enterprise AI has to own to make good decisions, and why most of that context was never public in the first place."
     slug: your-ai-or-theirs
   - label: "Part 2"
-    need: "It needs to decide how each piece of work should be handled."
+    need: "Then decide which engine should handle each piece of work."
     title: "The Orchestrator"
     blurb: "Some steps are generic, some are deeply domain-specific, and some must follow a fixed procedure. Something has to tell them apart."
     slug: the-orchestrator
   - label: "Part 3"
-    need: "It needs reliable information to reason over."
+    need: "Make sure the information it reasons over can be trusted."
     title: "Getting It Right"
     blurb: "Retrieval that finds the right document for this product, this version and this user, not just a similar-looking one."
     slug: getting-it-right
   - label: "Part 4"
-    need: "It needs a way to turn knowledge into action."
+    need: "For the parts that need consistency, turn knowledge into reliable execution."
     title: "From Knowing to Doing"
     blurb: "Where expert know-how should become repeatable, deterministic behavior, and where the model should still be free to reason."
     slug: from-knowing-to-doing
   - label: "Part 5"
-    need: "It needs evidence that the system continues to work."
+    need: "And keep testing it, because everything underneath it will change."
     title: "Proving It and Keeping It Proven"
     blurb: "Evaluation that still means something after the models, prompts and procedures underneath it have changed."
     slug: proving-it
