@@ -68,6 +68,6 @@ B.E., Electronics & Communication, Madras Institute of Technology, Anna Universi
 
 ## Get in touch
 
-Find me on [LinkedIn](https://www.linkedin.com/in/abinaya-govindan-59088311a/) or [GitHub](https://github.com/rougerex).
+Find me on [LinkedIn](https://www.linkedin.com/in/abinaya-govindan-59088311a/) or [GitHub](https://github.com/rex8me).
 
 *Views expressed here are my own and do not represent my employer.*
