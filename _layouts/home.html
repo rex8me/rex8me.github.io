@@ -4,14 +4,14 @@ layout: default
 
 {% include lang.html %}
 
-{% if paginator.page == 1 %}
+{% unless paginator.page > 1 %}
 <section class="home-hero mb-4">
   <h1 class="home-hero-title">Building AI systems that move from answers to outcomes.</h1>
   <p class="home-hero-sub">I write about AI architecture, agentic systems, RAG, search, evaluation, and the engineering decisions behind production AI.</p>
   <p class="home-hero-links"><a href="{{ '/writing/' | relative_url }}">Browse writing →</a> · <a href="{{ '/about/' | relative_url }}">About me</a></p>
   <h2 class="home-latest">Latest articles</h2>
 </section>
-{% endif %}
+{% endunless %}
 
 
 {% assign all_pinned = site.posts | where: 'pin', 'true' %}
