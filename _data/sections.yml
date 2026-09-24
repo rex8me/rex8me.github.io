@@ -1,0 +1,12 @@
+- name: AI Architecture
+  slug: ai-architecture
+  description: Reference architectures and design decisions for production AI systems.
+- name: Agentic AI
+  slug: agentic-ai
+  description: Multi-agent systems, memory, delegation, tools, and the protocols that connect agents.
+- name: RAG & Search
+  slug: rag-search
+  description: Retrieval, hybrid search, reranking, and grounding LLMs in enterprise knowledge.
+- name: AI Evaluation
+  slug: ai-evaluation
+  description: Golden queries, benchmarking, regression testing, and proving that AI systems actually work.

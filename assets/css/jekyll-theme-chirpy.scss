@@ -1,0 +1,26 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}'
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* custom */
+.home-hero { padding: 1.5rem 0 0.5rem; }
+.home-hero-title { font-size: 1.9rem; font-weight: 700; line-height: 1.25; margin-bottom: 0.75rem; }
+.home-hero-sub { font-size: 1.1rem; color: var(--text-muted-color); max-width: 42rem; }
+.home-hero-links { font-size: 1rem; }
+.home-latest { font-size: 1.15rem; font-weight: 600; margin-top: 2rem; padding-bottom: .4rem; border-bottom: 1px solid var(--main-border-color); }
+.writing-section { margin-bottom: 2rem; }
+.writing-section h2 { margin-bottom: .25rem; }
+.writing-section .section-desc { color: var(--text-muted-color); margin-bottom: .5rem; }
+.writing-empty { color: var(--text-muted-color); font-style: italic; }
