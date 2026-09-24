@@ -8,6 +8,8 @@ I'm **Abinaya Govindan**, and I build AI systems.
 
 I've spent the last 11 years working across NLP, search, machine learning, LLMs and, more recently, agentic AI. Most of my work sits at the intersection of models, systems and the messy reality of putting AI into production.
 
+Today I lead the agentic AI charter at an enterprise AI startup, owning the architecture, the roadmap and the team that takes multi-agent systems from prototype to production for real customers.
+
 The question I keep coming back to is:
 
 > **How do you get from an AI that answers to an AI that delivers outcomes?**
