@@ -3,9 +3,9 @@ tagline: "Notes from building agentic AI for the enterprise, and where I think s
 parts:
   - label: "Part 1"
     need: "Start with the context the system actually needs."
-    title: "Your AI or Theirs?"
-    blurb: "What an enterprise AI has to own to make good decisions, and why most of that context isn't something a general model could know on its own."
-    slug: your-ai-or-theirs
+    title: "Before You Build Another Model"
+    blurb: "When a ready-made model is enough, when your system needs something more, and why the knowledge that matters most usually isn't something any outside model could have."
+    slug: before-you-build-another-model
   - label: "Part 2"
     need: "Figure out what should do what, and let the system decide."
     title: "The Orchestrator"

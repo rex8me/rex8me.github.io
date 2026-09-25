@@ -5,7 +5,7 @@ permalink: /series/
 ---
 
 {% assign series = site.data.series %}
-{% assign first = site.posts | where_exp: "p", "p.slug == 'your-ai-or-theirs'" | first %}
+{% assign first = site.posts | where_exp: "p", "p.slug == 'before-you-build-another-model'" | first %}
 
 <p class="series-hero-tagline">Notes from building agentic AI for the enterprise.</p>
 
