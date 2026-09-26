@@ -12,7 +12,13 @@ pin: true
 
 Sooner or later, a lot of the enterprise AI conversations I've been part of land on the same question: do we roll out a ready-made assistant, or build our own?
 
-It usually gets framed as a model question. Which model is smartest, which is cheapest, whether it's worth fine-tuning. I understand why. Models are the visible part, and they change every few months. But the longer I work on these systems, the less useful I find that framing. The question that tends to decide how things turn out is a different one: what does the AI need to know to be useful here, who owns that knowledge, and can the AI you're choosing actually get to it?
+In practice, that question gets asked twice, and it sounds quite different each time.
+
+Before launch, it's mostly about getting off the ground. What's the cheapest, fastest way to put something useful in front of people? That's a reasonable question, and a ready-made model is often a good answer to it.
+
+A few months after go-live, a different question shows up: why didn't we catch these corner cases, and where are we supposed to handle them? The error code that means something different on one firmware version. The fix that's right for one product and wrong for the next one. The step that has to happen before another step, every time. These rarely show up in a demo. They show up once real people start using the system for real work.
+
+Both questions usually get framed as model questions. Which model is smartest, which is cheapest, whether it's worth fine-tuning, whether a bigger model would have caught those corner cases. I understand why. Models are the visible part, and they change every few months. But the longer I work on these systems, the less useful I find that framing. The question that tends to decide how things turn out is a different one: what does the AI need to know to be useful here, who owns that knowledge, and can the AI you're choosing actually get to it?
 
 The model matters. But in enterprise AI, I've come to think the bigger question is what sits around it: other models, your data, your organization's knowledge, and the procedures that turn that knowledge into action. That's the thread through this article. It's the first part of a series, so I'll stay closer to the ideas here and leave most of the architecture for later parts.
 
@@ -204,6 +210,8 @@ Which raises the question the next article is about: for any given step, **which
 ## So, should you build another model?
 
 Sometimes. But more often, the first things I'd build are the ones around the model. My honest answer to the build-vs-buy question is both, in layers.
+
+And I'd think about the second question, the one about corner cases, before go-live rather than after. Most of the layers in this article are really answers to it. It's much easier to leave room for them early than to retrofit them once people are relying on the system.
 
 A ready-made assistant is a good way to start, and I'd rarely argue against starting there. It covers the open-domain and public-knowledge questions well, it gets people using AI on real work quickly, and that usage shows you where the gaps are.
 
